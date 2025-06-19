@@ -1,3 +1,4 @@
+---
 - name: Create a directory
   ansible.builtin.file:
     path: "{{ settings_path | dirname }}"
